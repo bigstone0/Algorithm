@@ -7,7 +7,7 @@
 /dataSources/
 /dataSources.local.xml
 #custom
-/Baekjun/.idea
+/.idea/
 /Baekjun/Beakjoon.iml
-/Baekjun/out/
+/out/
 .DS_Store
