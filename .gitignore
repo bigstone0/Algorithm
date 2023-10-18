@@ -9,4 +9,5 @@
 #custom
 /Baekjun/.idea
 /Baekjun/Beakjoon.iml
-/Baekjun/out
+/Baekjun/out/
+.DS_Store
