@@ -7,4 +7,6 @@
 /dataSources/
 /dataSources.local.xml
 #custom
-/Greedy/*
+/Baekjun/.idea
+/Baekjun/Beakjoon.iml
+/Baekjun/out
