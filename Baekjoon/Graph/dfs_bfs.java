@@ -6,7 +6,7 @@ import java.util.*;
 //silver 2
 
 public class dfs_bfs {
-    public static void main(String[] args)throws IOException {
+    public static void main(String[] args) throws IOException {
 
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     String s = bf.readLine();
