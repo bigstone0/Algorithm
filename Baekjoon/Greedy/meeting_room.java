@@ -7,43 +7,44 @@ import java.util.*;
 //silver4
 // https://www.acmicpc.net/problem/1931
 public class meeting_room {
-    static class Meeting implements Comparable<Meeting>{
+    static class Meeting implements Comparable<Meeting> {
         int start;
         int end;
 
-        public Meeting(int start, int end){
-            this.start=start;
-            this.end=end;
+        public Meeting(int start, int end) {
+            this.start = start;
+            this.end = end;
         }
 
         @Override
-        public int compareTo(Meeting m){
-            if(this.end>m.end) return 1;
-            else if(this.end<m.end) return -1;
-            else return this.start-m.start;
+        public int compareTo(Meeting m) {
+            if (this.end > m.end) return 1;
+            else if (this.end < m.end) return -1;
+            else return this.start - m.start;
         }
     }
+
     public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        int n=Integer.parseInt(br.readLine());
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
 
-        List<Meeting> list=new ArrayList<>();
-        StringTokenizer st=null;
+        List<Meeting> list = new ArrayList<>();
+        StringTokenizer st = null;
 
-        for(int i=0;i<n;i++){
-            st=new StringTokenizer(br.readLine());
-            int a=Integer.parseInt((st.nextToken()));
-            int b=Integer.parseInt((st.nextToken()));
-            list.add(new Meeting(a,b));
+        for (int i = 0; i < n; i++) {
+            st = new StringTokenizer(br.readLine());
+            int a = Integer.parseInt((st.nextToken()));
+            int b = Integer.parseInt((st.nextToken()));
+            list.add(new Meeting(a, b));
         }
 
         Collections.sort(list);
 
-        int endT=0;
-        int count=0;
-        for(Meeting m:list){
-            if(endT<=m.start){
-                endT=m.end;
+        int endT = 0;
+        int count = 0;
+        for (Meeting m : list) {
+            if (endT <= m.start) {
+                endT = m.end;
                 count++;
             }
         }

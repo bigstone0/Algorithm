@@ -11,15 +11,15 @@ public class rope {
 
         // 로프 길이 정보를 배열에 담기
         int[] len = new int[n];
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             len[i] = Integer.parseInt(br.readLine());
         }
         Arrays.sort(len);
 
         // 각 로프가 버틸 수 있는 최대 중량->for문 하나 줄여 시간절약
         int[] weight = new int[n];
-        for(int i = 0; i < n; i++){
-            weight[i] = len[i]*(n-i);
+        for (int i = 0; i < n; i++) {
+            weight[i] = len[i] * (n - i);
         }
         Arrays.sort(weight);
 
