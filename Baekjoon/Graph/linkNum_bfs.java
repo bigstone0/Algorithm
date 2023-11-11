@@ -25,10 +25,10 @@ public class linkNum_bfs {
         }
 
         for (int i = 1; i < list.length; i++) {
-            if ((!list[i].isEmpty()&& q.isEmpty())) {
+            if ((!list[i].isEmpty() && q.isEmpty())) {
                 q.add(i);
             }
-            if(list[i].isEmpty()){
+            if (list[i].isEmpty()) {
                 count++;
             }
         }
