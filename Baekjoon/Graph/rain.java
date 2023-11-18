@@ -3,6 +3,7 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Stream;
 
+//silver1
 public class rain {
     static class Coor {
         int x;

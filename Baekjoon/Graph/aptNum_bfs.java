@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Stream;
 
+//silver1
 public class aptNum_bfs {
     static class Coor {
         int x;

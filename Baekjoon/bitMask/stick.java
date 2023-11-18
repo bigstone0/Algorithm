@@ -3,16 +3,17 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+//silver5
 public class stick {
-    public static void main(String[] args) throws IOException{
-        BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st=new StringTokenizer(bf.readLine());
-        int X=Integer.parseInt(st.nextToken());
-        int count=0;
+    public static void main(String[] args) throws IOException {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(bf.readLine());
+        int X = Integer.parseInt(st.nextToken());
+        int count = 0;
 
-        while(X!=1){
-            if(X%2==1) count++;
-            X=X/2;
+        while (X != 1) {
+            if (X % 2 == 1) count++;
+            X = X / 2;
         }
         count++;
 
