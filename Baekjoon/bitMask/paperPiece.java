@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Stream;
 
+//gold3
 public class paperPiece {
     static int[][] board;
     static int N, M;
@@ -33,12 +34,12 @@ public class paperPiece {
                         if (t_board[j][k] == 1) {
                             int row_end = M;
                             for (int o = k + 1; o < M; o++) {
-                                if (check[j][o]){
-                                    row_end=o; break;
-                                }
-                                else{
-                                    if(t_board[j][o]==0){
-                                        row_end=o;
+                                if (check[j][o]) {
+                                    row_end = o;
+                                    break;
+                                } else {
+                                    if (t_board[j][o] == 0) {
+                                        row_end = o;
                                         break;
                                     }
                                 }
@@ -52,12 +53,12 @@ public class paperPiece {
                         } else {
                             int col_end = N;
                             for (int o = j + 1; o < N; o++) {
-                                if (check[o][k]){
-                                    col_end=o; break;
-                                }
-                                else{
-                                    if(t_board[o][k]==1){
-                                        col_end=o;
+                                if (check[o][k]) {
+                                    col_end = o;
+                                    break;
+                                } else {
+                                    if (t_board[o][k] == 1) {
+                                        col_end = o;
                                         break;
                                     }
                                 }
