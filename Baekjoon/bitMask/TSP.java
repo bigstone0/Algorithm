@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class TSP {
     static int N;
     static final int INF = 16_000_000;
     static int[][] W, dp;
