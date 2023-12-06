@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Greedy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bitMask" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/goohyun" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dp" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
