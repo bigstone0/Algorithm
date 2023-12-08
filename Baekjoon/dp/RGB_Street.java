@@ -3,6 +3,8 @@ import java.io.*;
 import java.util.*;
 import java.util.stream.Stream;
 
+
+//silver1
 public class RGB_Street {
     static int N;
     static int[][] cost;

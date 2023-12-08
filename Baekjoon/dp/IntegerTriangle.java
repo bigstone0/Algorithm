@@ -3,6 +3,8 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Stream;
 
+
+//silver1
 public class IntegerTriangle {
     static int n;
     static int[][] cost;

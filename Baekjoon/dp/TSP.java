@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+
+//gold1
 public class TSP {
     static int N;
     static final int INF = 16_000_000;
