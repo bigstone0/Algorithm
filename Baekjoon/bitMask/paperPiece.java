@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Stream;
 
-//gold3
+// #14391(gold3)
 public class paperPiece {
     static int[][] board;
     static int N, M;

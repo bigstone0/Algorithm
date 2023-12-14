@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-//silver2
+// #11724(silver2)
 public class linkNum_bfs {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

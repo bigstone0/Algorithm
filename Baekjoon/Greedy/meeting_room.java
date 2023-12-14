@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//silver4
-// https://www.acmicpc.net/problem/1931
+// #1931(silver4)
 public class meeting_room {
     static class Meeting implements Comparable<Meeting> {
         int start;

@@ -4,7 +4,7 @@ import java.io.*;
 import static java.lang.Math.abs;
 
 
-//silver1
+// #1697(silver1)
 public class hidegame_bfs {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

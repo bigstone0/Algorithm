@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-//silver 1
+// #2156(silver1)
 public class wineEat {
     static int n;
     static int[][] dp;
@@ -37,8 +37,8 @@ public class wineEat {
             }
             if (dp[start][num] != -1) return dp[start][num];
 
-            for(int i=1;i<n-start;i++){
-                if(i==1) dp[start][num] = Math.max(eat(start + i, num + 1) + wine[start], dp[start][num]);
+            for (int i = 1; i < n - start; i++) {
+                if (i == 1) dp[start][num] = Math.max(eat(start + i, num + 1) + wine[start], dp[start][num]);
                 else dp[start][num] = Math.max(eat(start + i, 0) + wine[start], dp[start][num]);
             }
         }

@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Stream;
 
-//gold5
+// #7569(gold5)
 public class tomato_bfs {
     static class Coor {
         int x;

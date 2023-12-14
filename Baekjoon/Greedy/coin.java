@@ -1,6 +1,6 @@
 import java.util.*;
 
-//silver4
+// #11047(silver4)
 public class coin {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

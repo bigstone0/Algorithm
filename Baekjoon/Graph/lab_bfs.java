@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Stream;
 
-//gold4
+// #14502(gold4)
 public class lab_bfs {
     static final int[] dx = {-1, 1, 0, 0};
     static final int[] dy = {0, 0, -1, 1};

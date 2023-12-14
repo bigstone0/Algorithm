@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-//gold5
+// #10026(gold5)
 public class redGreenBlindness_bfs {
     private static int count = 0;
     private static final int[] dx = {-1, 1, 0, 0};

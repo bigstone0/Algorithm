@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-//silver2
+// #1012(silver2)
 public class bachu_bfs {
     static class coor {
         private int x;

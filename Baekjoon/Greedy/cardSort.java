@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-//gold4
+// #1715(gold4)
 public class cardSort {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

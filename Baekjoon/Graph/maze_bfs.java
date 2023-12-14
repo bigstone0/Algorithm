@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Stream;
 
-//silver1
+// #2178(silver1)
 
 public class maze_bfs {
     static class Coor {

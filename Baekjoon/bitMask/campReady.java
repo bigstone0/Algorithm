@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+// #16938(gold5)
 public class campReady {
     static int N;
     static long L, R, X;

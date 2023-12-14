@@ -2,6 +2,7 @@ import java.util.*;
 import java.io.*;
 import java.util.stream.Stream;
 
+// #2234(gold3)
 public class sungGuak {
     static int N, M;
     static int MAX=Integer.MIN_VALUE;

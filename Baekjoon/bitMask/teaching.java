@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//gold4
+// #1062(gold4)
 
 public class teaching {
     static ArrayList<String[]> word = new ArrayList<>();

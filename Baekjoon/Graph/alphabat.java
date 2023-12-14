@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.*;
 import java.io.*;
 
-//gold4
+// #1987(gold4)
 public class alphabat {
     static int COUNT = 0;
     static int MAX_COUNT = Integer.MIN_VALUE;
