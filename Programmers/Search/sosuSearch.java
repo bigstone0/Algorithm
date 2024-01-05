@@ -46,14 +46,13 @@ public class sosuSearch {
         }
     }
 
-    static boolean sosu(int number){
-        if(number==0||number==1) return false;
-        else if (number==2||number==3) {
+    static boolean sosu(int number) {
+        if (number == 0 || number == 1) return false;
+        else if (number == 2 || number == 3) {
             return true;
-        }
-        else{
-            for(int i=2;i<number;i++){
-                if((number%i)==0) return false;
+        } else {
+            for (int i = 2; i < number; i++) {
+                if ((number % i) == 0) return false;
             }
         }
         return true;
