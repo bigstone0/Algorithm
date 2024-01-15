@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main {
+public class WordChange {
     public static void main(String[] args) {
         String[] words = {"hot", "dot", "dog", "lot", "log"};
         System.out.println(solution("hit", "cog", words));
