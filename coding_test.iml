@@ -11,8 +11,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Programmers/BF" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Programmers/Graph" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Programmers/Sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Baekjoon/codingtest" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="07fbf1b3-6677-4e5b-a2c0-a398158aa2eb" />
   </component>
 </module>
