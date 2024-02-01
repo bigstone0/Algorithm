@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+// #1920(silver4)
 public class numSearch {
     static int N,M;
     static int[] A;

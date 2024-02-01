@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// #1941(gold3)
 public class princess7 {
     static String[][] zone=new String[5][5];
     static int count=0;

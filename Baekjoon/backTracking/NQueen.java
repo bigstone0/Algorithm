@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// #9663(gold4)
 public class NQueen {
     static int N;
     static int count = 0;
