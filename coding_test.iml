@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Baekjoon/codingtest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Baekjoon/SW_A" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Baekjoon/backTracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Baekjoon/binarySearch" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
